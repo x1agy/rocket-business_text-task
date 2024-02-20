@@ -1,0 +1,28 @@
+
+@media(max-width: 940px){
+    .Accordions{
+        padding: 20px;
+    }
+    .Accordions > h1 {
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-weight: 700;
+        line-height: 34px;
+    }
+}
+
+@media(min-width: 940px){
+    .Accordions{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        row-gap: 30px;
+    }
+    
+    .Accordions > h1{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-weight: 700;
+        font-size: 37px;
+        line-height: 47px;
+    }
+}

@@ -4,9 +4,7 @@ export type fishTextType = {
         description: string,
     },
     second_block: {
-        [key: string]: {
-            title: string,
-            description: string | string[],
-        }
-    }
+        title: string,
+        description: string | string[]
+    }[]
 }
