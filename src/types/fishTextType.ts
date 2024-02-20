@@ -6,5 +6,11 @@ export type fishTextType = {
     second_block: {
         title: string,
         description: string | string[]
-    }[]
+    }[],
+    third_block: {
+        mainTitle: string,
+        cooTitle: string,
+        ul: string[],
+        price: number
+    }[],
 }

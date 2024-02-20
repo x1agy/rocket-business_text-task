@@ -1,0 +1,173 @@
+.slide > li{
+    color: #364844;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    position: relative; 
+    list-style-type: none;
+    padding-left: 15px; 
+}
+
+.slide > li::before {
+    content: ''; 
+    position: absolute; 
+    top: 50%; 
+    left: 0; 
+    transform: translateY(-50%); 
+    width: 7px;
+    height: 7px;
+    background-color: #1FA181;
+    border-radius: 50%; 
+}
+
+.slideSecondButton{
+    border-radius: 50px;
+    border: 1px solid #0DBC91;
+    color: #0DBC91;
+    background-color: #E2F0EF;
+    margin-left: 10px;
+}
+
+@media(max-width: 940px){
+    .slideHolder{
+        background-image: url('https://sun9-66.userapi.com/impg/LSihj1bOzDo9yOeJSWKv37vuLGQkRjyWPpdl1A/mpDGwBrhUqw.jpg?size=680x1072&quality=96&sign=ef8077823a1e63c876579868295103f2&type=album');
+        background-size: cover;
+    }
+
+    .Slider{
+        height: 536px;
+        width: 340px;
+        margin: 0;
+        margin-bottom: 50px;
+    }
+
+    .slide{
+        margin-top: 200px;
+        color: #364844;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        padding-left: 20px;
+    }
+
+    .slide > h1{
+        margin: 0;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 34px;
+    }
+
+    .slide > h3{
+        margin: 0;
+        margin-bottom: 20px;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+    .slide > li{
+        color: #364844;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .slide > h4{
+        color: #364844;
+        font-weight: 400;
+        font-size: 18px;
+    }
+    
+    .slide small{
+        color: #868686;
+        text-decoration: line-through;
+        font-size: 14px;
+        line-height: 18px;
+        margin-left: 10px;
+    }
+
+    .slideFirstButton{
+        width: 137px;
+        height: 43px;
+        border-radius: 50px;
+        background-color: #0DBC91;
+        color: white;
+    }
+
+    .slideSecondButton{
+        width: 137px;
+        height: 43px;
+    }
+}
+
+@media(min-width: 940px){
+
+    .slideFirstButton{
+        width: 196px;
+        height: 43px;
+        border-radius: 50px;
+        background-color: #0DBC91;
+        color: white;
+    }
+
+    .slideSecondButton{
+        width: 196px;
+        height: 43px;
+    }
+
+    .Slider{
+        width: 1140px;
+        height: 440px;
+        border-radius: 5px;
+        margin-bottom: 50px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        margin-top: 100px;
+    }
+    
+    .slideHolder{
+        background-image: url('https://sun2-19.userapi.com/impg/qYmBs4uvJsSDuladOV4Xkr5PSrYIqulELs-LZg/NXUAvUU6Flk.jpg?size=2280x880&quality=96&sign=f1fcab2a8e29b3e5338a2776b2252493&type=album');
+        background-size: cover
+    }
+
+    .slide{
+        padding-left: 50px;
+        padding-top: 30px;
+    }
+    
+    .slide > h1{
+        font-weight: 700;
+        font-size: 38px;
+        line-height: 50px;
+        color: #364844;
+        margin: 0;
+    }
+    
+    .slide > h3{
+        margin: 0;
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 29px;
+        color: #364844;
+        margin-bottom: 20px;
+    }
+    
+    .slide > li{
+        color: #364844;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 21px;
+    }
+    
+    .slide > h4{
+        color: #364844;
+        font-weight: 700;
+        font-size: 20px;
+    }
+    
+    .slide small{
+        color: #868686;
+        text-decoration: line-through;
+        font-size: 16px;
+        line-height: 24px;
+        margin-left: 10px;
+    }
+}
+

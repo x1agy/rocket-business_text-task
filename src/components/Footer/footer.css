@@ -1,0 +1,36 @@
+
+@media(max-width: 940px){
+    .Footer{
+        background-color: #08664F;
+        height: 291px;
+        display: flex;
+        justify-content: center;
+    }
+    .Footer img{
+        height: 291px;
+    }
+    .mobFooter{
+        display: flex;
+    }
+    .compFooter{
+        display: none;
+    }
+}
+
+@media(min-width: 940px){
+    .Footer{
+        background-color: #08664F;
+        height: 144px;
+        display: flex;
+        justify-content: center;
+    }
+    .Footer img{
+        height: 144px;
+    }
+    .mobFooter{
+        display: none;
+    }
+    .compFooter{
+        display: flex;
+    }
+}

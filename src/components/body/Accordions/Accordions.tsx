@@ -13,9 +13,9 @@ const Accordions = () => {
             className="Accordions"
         >
             <h1>Часто задаваемые вопросы</h1>
-            {accordionsData.second_block.map(item => {
+            {accordionsData.second_block.map((item, index) => {
                 return(
-                    <Accordion {...item}/>
+                    <Accordion {...item} key={index} />
                 )
             })}
         </div>

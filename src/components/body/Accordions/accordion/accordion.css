@@ -8,12 +8,18 @@
         font-weight: 700;
         font-size: 14px;
     }
+
+    .Accordion{
+        padding: 10px;
+        padding-left: 15px;
+    }
 }
 
 .Accordion{
     border-radius: 5px;
     background-color: #F8FBFA;
     color: #364844;
+    margin-bottom: 30px;
 }
 
 .Accordion > p{

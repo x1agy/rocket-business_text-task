@@ -23,5 +23,51 @@
             "title": "Заголовок часто задаваемого вопроса",
             "description": "Tellus pharetra lorem placerat tortor pharetra. Faucibus diam egestas commodo rhoncus vitae tristique. Adipiscing ultricies gravida nunc nisi at ipsum enim lobortis a. Est risus est commodo nibh. In leo nisi nunc elit luctus nisl praesent. Nibh placerat dui in adipiscing fringilla auctor purus id augue. Viverra libero sit commodo sit aliquet massa euismod. "
         }
+    ],
+    "third_block": [
+        {
+            "mainTitle": "CHECK-UP",
+            "cooTitle": "для мужчин",
+            "ul": [
+                "Гормональный скрининг",
+                "Тестостерон",
+                "Свободный тестостерон",
+                "Глобулин, связывающий половые гормоны"
+            ],
+            "price": 2800
+        },
+        {
+            "mainTitle": "CHECK-UP",
+            "cooTitle": "для женщин",
+            "ul": [
+                "Гормональный скрининг",
+                "Тестостерон",
+                "Свободный тестостерон",
+                "Глобулин, связывающий половые гормоны"
+            ],
+            "price": 5555
+        },
+        {
+            "mainTitle": "CHECK-UP",
+            "cooTitle": "для детей",
+            "ul": [
+                "Гормональный скрининг",
+                "Тестостерон",
+                "Свободный тестостерон",
+                "Глобулин, связывающий половые гормоны"
+            ],
+            "price": 10000
+        },
+        {
+            "mainTitle": "CHECK-UP",
+            "cooTitle": "для животных",
+            "ul": [
+                "Гормональный скрининг",
+                "Тестостерон",
+                "Свободный тестостерон",
+                "Глобулин, связывающий половые гормоны"
+            ],
+            "price": 2000
+        }
     ]
 }

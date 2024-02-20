@@ -7,7 +7,12 @@
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         font-weight: 700;
         line-height: 34px;
+        margin-bottom: 30px;
     }
+}
+
+.Accordions > h1{
+    color: #364844;
 }
 
 @media(min-width: 940px){
@@ -16,7 +21,6 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        row-gap: 30px;
     }
     
     .Accordions > h1{
